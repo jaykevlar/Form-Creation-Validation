@@ -1,0 +1,74 @@
+/* General Body Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  background-color: #222;
+  align-items: center;
+  padding: 1rem;
+}
+
+header li {
+  padding: 0.5rem 1rem;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* Logo Style */
+.logo {
+  font-size: 2rem;
+  color: #ff6600;
+}
+
+/* Article Section */
+article {
+  background: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  color: #0077cc;
+  margin-bottom: 1rem;
+}
+
+article p {
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
